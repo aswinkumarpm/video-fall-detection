@@ -100,7 +100,7 @@ while True:
                 count += 1
                 if (count > 18):
                     count_fall+=1
-                    #print("Fall detected")
+                    print("Warning ")
                     list_falls.append((time.time()))
                     if(count_fall>1):
                         if(list_falls[len(list_falls)-1]-list_falls[len(list_falls)-2]<.5):
